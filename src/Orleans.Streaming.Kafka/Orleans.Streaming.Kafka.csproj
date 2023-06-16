@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>Microsoft.Orleans.Streaming.Kafka</PackageId>
+    <Title>Microsoft Orleans Apache Kafka Streaming Provider</Title>
+    <Description>Microsoft Orleans stream provider for Apache Kafka.</Description>
+    <PackageTags>$(PackageTags) Kafka</PackageTags>
+    <TargetFrameworks>$(DefaultTargetFrameworks)</TargetFrameworks>
+    <AssemblyName>Orleans.Streaming.Kafka</AssemblyName>
+    <RootNamespace>Orleans.Streaming.Kafka</RootNamespace>
+    <OrleansBuildTimeCodeGen>true</OrleansBuildTimeCodeGen>
+  </PropertyGroup>
+</Project>
